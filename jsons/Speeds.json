@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Standard",
+        "modifier": 1.0,
+        "productionCostModifier": 1.0,
+        "goldCostModifier": 1.0,
+        "scienceCostModifier": 1.0,
+        "cultureCostModifier": 1.0,
+        "faithCostModifier": 1.0,
+        "improvementBuildLengthModifier": 1.0,
+        "barbarianModifier": 1.0,
+        "goldGiftModifier": 1.0,
+        "cityStateTributeScalingInterval": 6.5,
+        "goldenAgeLengthModifier": 1.0,
+        "religiousPressureAdjacentCity": 6,
+        "peaceDealDuration": 10,
+        "dealDuration": 30,
+        "startYear": 0,
+        "turns": [
+            {"yearsPerTurn":   1, "untilTurn": 300},
+            {"yearsPerTurn": 0.5, "untilTurn": 1000}
+        ]
+    },
+]

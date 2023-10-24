@@ -1,0 +1,1308 @@
+
+game.png
+size: 2048, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Archaic Age
+  rotate: false
+  xy: 4, 859
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+TechIcons/To the Classical Age
+  rotate: false
+  xy: 4, 859
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+BuildingIcons/Archery Range
+  rotate: false
+  xy: 4, 173
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Archery Range
+  rotate: false
+  xy: 4, 173
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Chinese Major God
+  rotate: false
+  xy: 1676, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Citadel
+  rotate: false
+  xy: 1784, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/City Center
+  rotate: false
+  xy: 1892, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Classical Age
+  rotate: false
+  xy: 4, 691
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+TechIcons/To the Heroic Age
+  rotate: false
+  xy: 4, 691
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dock
+  rotate: false
+  xy: 172, 470
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Dock
+  rotate: false
+  xy: 172, 470
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Egyptian Major God
+  rotate: false
+  xy: 516, 579
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Empty Throne
+  rotate: false
+  xy: 132, 362
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Fortified Walls
+  rotate: false
+  xy: 235, 254
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Greek Major God
+  rotate: false
+  xy: 388, 471
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Heroic Age
+  rotate: false
+  xy: 4, 523
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+TechIcons/To the Mythic Tech
+  rotate: false
+  xy: 4, 523
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+BuildingIcons/Houses
+  rotate: false
+  xy: 456, 363
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Longhouse
+  rotate: false
+  xy: 1116, 811
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Longhouse
+  rotate: false
+  xy: 1116, 811
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Major God Fu Xi
+  rotate: false
+  xy: 1440, 811
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Major God Hades
+  rotate: false
+  xy: 1548, 811
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Major God Isis
+  rotate: false
+  xy: 1656, 811
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Major God Loki
+  rotate: false
+  xy: 1764, 811
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Major God Nu Wa
+  rotate: false
+  xy: 1872, 819
+  size: 100, 92
+  orig: 100, 92
+  offset: 0, 0
+  index: -1
+BuildingIcons/Major God Odin
+  rotate: false
+  xy: 624, 584
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Major God Poseidon
+  rotate: false
+  xy: 664, 692
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Major God Ra
+  rotate: false
+  xy: 4, 281
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+BuildingIcons/Major God Set
+  rotate: false
+  xy: 772, 703
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Major God Shennong
+  rotate: false
+  xy: 880, 703
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Major God Thor
+  rotate: false
+  xy: 988, 702
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Major God Zeus
+  rotate: false
+  xy: 732, 584
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mythic Age
+  rotate: false
+  xy: 172, 691
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+TechIcons/Secret of the Titan
+  rotate: false
+  xy: 172, 691
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+BuildingIcons/Norse Major God
+  rotate: false
+  xy: 1096, 702
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Secret of the Titan
+  rotate: false
+  xy: 1380, 595
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Stone Walls
+  rotate: false
+  xy: 928, 486
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Town Center
+  rotate: false
+  xy: 996, 378
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Wonder
+  rotate: false
+  xy: 1576, 487
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Wooden Walls
+  rotate: false
+  xy: 1792, 487
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Barracks
+  rotate: false
+  xy: 812, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Castle
+  rotate: false
+  xy: 1136, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Lumber Camp
+  rotate: false
+  xy: 1224, 811
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Military Academy
+  rotate: false
+  xy: 712, 476
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Sentry Tower
+  rotate: false
+  xy: 1488, 595
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Stable
+  rotate: false
+  xy: 820, 476
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Temple
+  rotate: false
+  xy: 1144, 486
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Watch Tower
+  rotate: false
+  xy: 1360, 487
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Chinese
+  rotate: false
+  xy: 1568, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Chinese Mythology
+  rotate: false
+  xy: 1568, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Egyptian
+  rotate: false
+  xy: 448, 687
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Egyptian Mythology
+  rotate: false
+  xy: 448, 687
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Greek
+  rotate: false
+  xy: 280, 470
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Greek Mythology
+  rotate: false
+  xy: 280, 470
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Norse
+  rotate: false
+  xy: 840, 595
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Norse Mythology
+  rotate: false
+  xy: 840, 595
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Fu Xi
+  rotate: false
+  xy: 220, 146
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Hades
+  rotate: false
+  xy: 496, 471
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Isis
+  rotate: false
+  xy: 556, 692
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Loki
+  rotate: false
+  xy: 792, 811
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Nu Wa
+  rotate: false
+  xy: 1204, 711
+  size: 100, 92
+  orig: 100, 92
+  offset: 0, 0
+  index: -1
+PolicyIcons/Odin
+  rotate: false
+  xy: 1312, 703
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Poseidon
+  rotate: false
+  xy: 1636, 703
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Ra
+  rotate: false
+  xy: 1164, 594
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Set
+  rotate: false
+  xy: 1596, 595
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Shennong
+  rotate: false
+  xy: 1852, 703
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Thor
+  rotate: false
+  xy: 888, 368
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Zeus
+  rotate: false
+  xy: 1320, 378
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Favor
+  rotate: false
+  xy: 112, 146
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Food Reserve
+  rotate: false
+  xy: 240, 362
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Gold Ore
+  rotate: false
+  xy: 220, 38
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Unit Slot
+  rotate: false
+  xy: 1212, 378
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Wood
+  rotate: false
+  xy: 1684, 487
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Ambassador
+  rotate: false
+  xy: 468, 800
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Bow Saw
+  rotate: false
+  xy: 920, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Carpenters
+  rotate: false
+  xy: 1028, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Coinage
+  rotate: false
+  xy: 340, 687
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Conscript Archers
+  rotate: false
+  xy: 300, 579
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Conscript Cavalry
+  rotate: false
+  xy: 300, 579
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Conscript Infantry
+  rotate: false
+  xy: 300, 579
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Conscript Sailors
+  rotate: false
+  xy: 300, 579
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Flood Control
+  rotate: false
+  xy: 112, 38
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Future Tech
+  rotate: false
+  xy: 172, 859
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+BuildingIcons/Titan Age
+  rotate: false
+  xy: 172, 859
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+TechIcons/Husbandry
+  rotate: false
+  xy: 604, 471
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Irrigation
+  rotate: false
+  xy: 576, 800
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Pickaxe
+  rotate: false
+  xy: 1420, 703
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Plow
+  rotate: false
+  xy: 1528, 703
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Quarry
+  rotate: false
+  xy: 1744, 703
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Settlement
+  rotate: false
+  xy: 1704, 595
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Shaft Mine
+  rotate: false
+  xy: 1812, 595
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Tax Collectors
+  rotate: false
+  xy: 1036, 486
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/sss
+  rotate: false
+  xy: 1428, 379
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Tiles/City center-Ancient Age
+  rotate: false
+  xy: 1536, 409
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Tiles/City center-Classical Age
+  rotate: false
+  xy: 1536, 409
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Tiles/City center-Heroic Age
+  rotate: false
+  xy: 1624, 409
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Tiles/City center-Mythic Age
+  rotate: false
+  xy: 1624, 409
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Tiles/City center-Titan Age
+  rotate: false
+  xy: 1712, 409
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Tiles/DeerT
+  rotate: false
+  xy: 1800, 395
+  size: 80, 84
+  orig: 80, 84
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Tiles/DeerT+Camp
+  rotate: false
+  xy: 1888, 395
+  size: 80, 84
+  orig: 80, 84
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Tiles/FarmG
+  rotate: false
+  xy: 340, 914
+  size: 120, 105
+  orig: 120, 105
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Tiles/ForestF
+  rotate: false
+  xy: 4, 404
+  size: 120, 111
+  orig: 120, 111
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Tiles/Gold OreF
+  rotate: false
+  xy: 172, 578
+  size: 120, 105
+  orig: 120, 105
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Tiles/Palm
+  rotate: false
+  xy: 340, 795
+  size: 120, 111
+  orig: 120, 111
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Tiles/Palm+Lumber mill
+  rotate: false
+  xy: 468, 908
+  size: 120, 111
+  orig: 120, 111
+  offset: 0, 0
+  index: -1
+TileSets/Civ6/Tiles/City center-Archaic Age
+  rotate: false
+  xy: 1960, 719
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6/Tiles/City center-Classical Age
+  rotate: false
+  xy: 1960, 719
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6/Tiles/City center-Heroic Age
+  rotate: false
+  xy: 1608, 337
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6/Tiles/City center-Mythic Age
+  rotate: false
+  xy: 1608, 337
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6/Tiles/City center-Titan Age
+  rotate: false
+  xy: 328, 176
+  size: 64, 70
+  orig: 64, 70
+  offset: 0, 0
+  index: -1
+TileSets/Civ6/Tiles/ForestG
+  rotate: false
+  xy: 328, 26
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6/Tiles/ForestUpG
+  rotate: false
+  xy: 1976, 343
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/Civ6/Tiles/Lumber millG
+  rotate: false
+  xy: 1752, 323
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Ancient Age
+  rotate: false
+  xy: 132, 483
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Classical Age
+  rotate: false
+  xy: 2000, 987
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Heroic Age
+  rotate: false
+  xy: 2000, 947
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Mythic Age
+  rotate: false
+  xy: 1252, 337
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Titan Age
+  rotate: false
+  xy: 1332, 338
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Forest+Lumber mill
+  rotate: false
+  xy: 1292, 300
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Forest+Lumber millT
+  rotate: false
+  xy: 1332, 298
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/ForestTHUp
+  rotate: false
+  xy: 451, 260
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/Pix5/Tiles/ForestTHUp
+  rotate: false
+  xy: 451, 260
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/ForestTUp
+  rotate: false
+  xy: 2008, 555
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/Pix5/Tiles/ForestTUp
+  rotate: false
+  xy: 2008, 555
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Bison
+  rotate: false
+  xy: 1980, 855
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Bison+Camp
+  rotate: false
+  xy: 1980, 791
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Archaic Age
+  rotate: false
+  xy: 1976, 415
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Classical Age
+  rotate: false
+  xy: 1536, 337
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Heroic Age
+  rotate: false
+  xy: 1680, 335
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Mythic Age
+  rotate: false
+  xy: 1680, 335
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Titan Age
+  rotate: false
+  xy: 328, 98
+  size: 64, 70
+  orig: 64, 70
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestG
+  rotate: false
+  xy: 400, 196
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestG2
+  rotate: false
+  xy: 400, 132
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/JungleG
+  rotate: false
+  xy: 400, 132
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestP2
+  rotate: false
+  xy: 400, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Palm
+  rotate: false
+  xy: 1824, 331
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/PalmH
+  rotate: false
+  xy: 1896, 331
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/PalmS
+  rotate: false
+  xy: 996, 314
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Laborer
+  rotate: false
+  xy: 400, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Villager
+  rotate: false
+  xy: 1068, 314
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Work Ship
+  rotate: false
+  xy: 1140, 314
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Pix5/Tiles/City center-Archaic Age
+  rotate: false
+  xy: 4, 27
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/Pix5/Tiles/City center-Classical Age
+  rotate: false
+  xy: 1212, 340
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/Pix5/Tiles/City center-Heroic Age
+  rotate: false
+  xy: 44, 27
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/Pix5/Tiles/City center-Mythic Age
+  rotate: false
+  xy: 1292, 340
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/Pix5/Tiles/City center-Titan Age
+  rotate: false
+  xy: 1372, 340
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/Pix5/Tiles/Farm+Flood plainsF
+  rotate: false
+  xy: 1212, 304
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/Pix5/Tiles/FarmF
+  rotate: false
+  xy: 1252, 301
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/Pix5/Tiles/ForestF
+  rotate: false
+  xy: 1372, 302
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/Pix5/Tiles/TFF
+  rotate: false
+  xy: 2008, 517
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+UnitIcons/Archer
+  rotate: false
+  xy: 596, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Norse Archer
+  rotate: false
+  xy: 596, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Axeman
+  rotate: false
+  xy: 4, 65
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Hand Axe
+  rotate: false
+  xy: 4, 65
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Halberdier
+  rotate: false
+  xy: 348, 362
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Hypaspist
+  rotate: false
+  xy: 672, 363
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Laborer
+  rotate: false
+  xy: 684, 811
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Longboat
+  rotate: false
+  xy: 1008, 810
+  size: 100, 101
+  orig: 100, 101
+  offset: 0, 0
+  index: -1
+UnitIcons/Norse Crossbowman
+  rotate: false
+  xy: 948, 594
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Norse Knight
+  rotate: false
+  xy: 1056, 594
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Raiding Cavalry
+  rotate: false
+  xy: 1272, 595
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Skirmisher
+  rotate: false
+  xy: 780, 368
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Trireme
+  rotate: false
+  xy: 1104, 378
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Villager
+  rotate: false
+  xy: 1252, 486
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Work Ship
+  rotate: false
+  xy: 1900, 487
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Atonement
+  rotate: false
+  xy: 704, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Champion Archers
+  rotate: false
+  xy: 1244, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Levy Archers
+  rotate: false
+  xy: 1244, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Heavy Archers
+  rotate: false
+  xy: 1244, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Medium Archers
+  rotate: false
+  xy: 1244, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Champion Cavalry
+  rotate: false
+  xy: 1352, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Levy Cavalry
+  rotate: false
+  xy: 1352, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Heavy Cavalry
+  rotate: false
+  xy: 1352, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Medium Cavalry
+  rotate: false
+  xy: 1352, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Champion Infantry
+  rotate: false
+  xy: 1460, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Levy Infantry
+  rotate: false
+  xy: 1460, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Heavy Infantry
+  rotate: false
+  xy: 1460, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Medium Infantry
+  rotate: false
+  xy: 1460, 919
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Draft Horse
+  rotate: false
+  xy: 408, 579
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Engineers
+  rotate: false
+  xy: 127, 254
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Heroic Fleet
+  rotate: false
+  xy: 343, 260
+  size: 100, 94
+  orig: 100, 94
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Hull
+  rotate: false
+  xy: 564, 363
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Lone Wanderer
+  rotate: false
+  xy: 900, 811
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Mail
+  rotate: false
+  xy: 1332, 811
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Shield
+  rotate: false
+  xy: 1920, 595
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Weapon
+  rotate: false
+  xy: 1468, 487
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

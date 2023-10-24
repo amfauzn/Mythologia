@@ -1,0 +1,192 @@
+[
+	{
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Hill","Flood plains"],
+		"food": 1,
+		"turnsToBuild": 6,
+		"uniques": ["Great Improvement",
+					"Provides [1] [Food Reserve]",
+					"Tile provides yield without assigned population",
+					"Must be next to [City center]"],
+		"shortcutKey": "F"
+	},
+	
+	// Resources
+	{
+		"name": "Camp",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 1,
+		"uniques": ["Can only be built to improve a resource",
+					"Tile provides yield without assigned population",
+					"Consumes [1] [Unit Slot]"],
+		"shortcutKey": "C"
+	},
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 1,
+		"uniques": ["Can only be built to improve a resource",
+					"Tile provides yield without assigned population",
+					"Consumes [1] [Unit Slot]"],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Lumber Camp",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 1,
+		"uniques": ["Can only be built to improve a resource",
+					"Tile provides yield without assigned population",
+					"Consumes [1] [Unit Slot]"],
+		"shortcutKey": "L"
+	},
+	{
+		"name": "Fishing Boats",
+		"terrainsCanBeBuiltOn": ["Coast","Atoll","Lakes"],
+		"food": 1,
+		"uniques": ["Can only be built to improve a resource", 
+					"Tile provides yield without assigned population",
+					"Provides [2] [Food Reserve]", 
+					"Consumes [1] [Unit Slot]"],
+		"shortcutKey": "F"
+	},
+
+	// Military
+	{
+		"name": "Sentry Tower",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"uniques": ["Can be built outside your borders", 
+					"Gives a defensive bonus of [25]%"],
+		"shortcutKey": "O"
+	},
+	{
+		"name": "Watch Tower",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 10,
+		"uniques": ["Can be built just outside your borders", 
+					"Gives a defensive bonus of [25]%",
+					"Adjacent enemy units ending their turn take [5] damage", 
+					"Only available <starting from the [Heroic Age]>"],
+		"shortcutKey": "P"
+	},
+
+	// Transportation
+	{
+		"name": "Road",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "R",
+		"civilopediaText": [
+			{"text":"Reduces movement cost to 1/2 if the other tile also has a Road or Railroad"}
+		]
+	},
+
+	// Removals
+	{
+		"name": "Remove Fallout",
+		"turnsToBuild": 4,
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Road",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Cancel improvement order",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "."
+	},
+	
+	// Cities
+	{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", 
+					"Unbuildable", 
+					"Will be replaced by automated workers"],
+		"civilopediaText": [
+			{"text":"A bleak reminder of the destruction wreaked by War"}
+		]
+	},
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", 
+					"Irremovable", 
+					"Unbuildable", 
+					"Adjacent enemy units ending their turn take [10] damage"],
+		"civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
+		]
+	},
+	{
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", 
+					"Unbuildable"],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+	}
+	
+	// Building Improvement
+	{
+		"name": "Dock",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"uniques": ["Great Improvement",
+					"Gives a defensive bonus of [10]%",
+					"Tile provides yield without assigned population"],
+	},
+	{
+		"name": "Temple",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Great Improvement",
+					"Gives a defensive bonus of [10]%",
+					"Tile provides yield without assigned population"],
+	},
+	{
+		"name": "Barracks",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Great Improvement",
+					"Gives a defensive bonus of [10]%",
+					"Tile provides yield without assigned population"],
+	},
+	{
+		"name": "Military Academy",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Great Improvement",
+					"Gives a defensive bonus of [10]%",
+					"Tile provides yield without assigned population"],
+	},
+	{
+		"name": "Longhouse",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Great Improvement",
+					"Gives a defensive bonus of [10]%",
+					"Tile provides yield without assigned population"],
+	},
+	{
+		"name": "Archery Range",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Great Improvement",
+					"Gives a defensive bonus of [10]%",
+					"Tile provides yield without assigned population"],
+	},
+	{
+		"name": "Stable",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Great Improvement",
+					"Gives a defensive bonus of [10]%",
+					"Tile provides yield without assigned population"],
+	},
+	{
+		"name": "Castle",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Great Improvement",
+					"Gives a defensive bonus of [10]%",
+					"Tile provides yield without assigned population", 
+					"Adjacent enemy units ending their turn take [10] damage"],
+	},
+]

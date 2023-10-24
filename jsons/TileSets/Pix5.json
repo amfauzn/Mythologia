@@ -1,0 +1,76 @@
+{
+    "useColorAsBaseTerrain": "false",
+	"fallbackTileSet": "FantasyHex",
+	"unexploredTileColor": {"r":1,"g":1,"b":1,"a":1}, //White
+	"fogOfWarColor": {"r":0,"g":0,"b":0,"a":1}, //Black
+    "ruleVariants": {
+		
+		// Food Reserve
+		"Grassland+Food Reserve": ["Grassland","Cattle"],
+		"Grassland+Food Reserve+Camp": ["Grassland","Cattle+Pasture"],
+		"Grassland+Hill+Food Reserve": ["Grassland","Hill","Sheep"],
+		"Grassland+Hill+Food Reserve+Camp": ["Grassland","Hill","Sheep+Pasture"],
+		"Plains+Food Reserve": ["Plains","Furs"],
+		"Plains+Food Reserve+Camp": ["Plains","Furs+Camp"],
+		"Plains+Hill+Food Reserve": ["Plains","Hill","Sheep"],
+		"Plains+Hill+Food Reserve+Camp": ["Plains","Hill","Sheep+Pasture"],
+		"Plains+Flood plains+Food Reserve": ["Plains","Flood plains","Ivory"],
+		"Plains+Flood plains+Food Reserve+Camp": ["Plains","Flood plains","Ivory+Camp"],
+		"Tundra+Food Reserve": ["TundraF","ForestTUp","Deer"],
+		"Tundra+Food Reserve+Camp": ["Tundra","ForestTUp","Deer+Camp"],
+		"Tundra+Hill+Food Reserve": ["Tundra","Hill","ForestTHUp","Deer"],
+		"Tundra+Hill+Food Reserve+Camp": ["Tundra","Hill","ForestTHUp","Deer+Camp"],
+		"Desert+Food Reserve": ["Desert","Bison"],
+		"Desert+Food Reserve+Camp": ["Desert","Bison+Camp"],
+		"Desert+Hill+Food Reserve": ["Desert","Hill","Bison"],
+		"Desert+Hill+Food Reserve+Camp": ["Desert","Hill","Bison+Camp"],
+		"Desert+Flood plains+Food Reserve": ["Desert","Flood plains","Ivory"],
+		"Desert+Flood plains+Food Reserve+Camp": ["Desert","Flood plains","Ivory+Camp"],
+		
+		// Wood
+		"Grassland+Wood": ["Grassland","Forest"],
+		"Grassland+Wood+Lumber Camp": ["Grassland","Forest+Lumber mill"],
+		"Grassland+Hill+Wood": ["Grassland","Hill","HF"],
+		"Grassland+Hill+Wood+Lumber Camp": ["Grassland","Hill","HF+Lumber mill"],
+		"Plains+Wood": ["Plains","Forest"],
+		"Plains+Wood+Lumber Camp": ["Plains","Forest+Lumber mill"],
+		"Plains+Hill+Wood": ["Plains","Hill","HF"],
+		"Plains+Hill+Wood+Lumber Camp": ["Plains","Hill","HF+Lumber mill"],
+		"Plains+Flood plains+Wood": ["Plains","Flood plains","Forest"],
+		"Plains+Flood plains+Wood+Lumber Camp": ["Plains","Flood plains","Forest+Lumber mill"],
+		"Tundra+Wood": ["Tundra","TF"],
+		"Tundra+Wood+Lumber Camp": ["TundraF","TF+Lumber mill"],
+		"Tundra+Hill+Wood": ["Tundra","Hill","TF"],
+		"Tundra+Hill+Wood+Lumber Camp": ["Tundra","Hill","TF+Lumber mill"],
+		//"Desert+Wood": ["Desert","Palm"],
+		//"Desert+Wood+Lumber Camp": ["Desert","Palm","Lumber mill"],
+		//"Desert+Hill+Wood": ["Desert+Hill","PalmH"],
+		//"Desert+Hill+Wood+Lumber Camp": ["Desert+Hill","PalmH","Lumber mill"],
+		//"Desert+Flood plains+Wood": ["Desert","Flood plains","Palm"],
+		//"Desert+Flood plains+Wood+Lumber Camp": ["Desert","Flood plains","Palm","Lumber mill"],
+		
+		// Farm
+		"Grassland+Food Reserve+Farm": ["Grassland","Farm","Cattle"],
+		"Grassland+Hill+Food Reserve+Farm": ["Grassland","Hill","Terrace farm","Sheep"],
+		"Plains+Food Reserve+Farm": ["Plains","Farm","Furs"],
+		"Plains+Hill+Food Reserve+Farm": ["Plains","Hill","Terrace farm","Sheep"],
+		"Plains+Flood plains+Food Reserve+Farm": ["Plains","Farm+Flood plains","Ivory"],
+		"Tundra+Food Reserve+Farm": ["Tundra","Farm","ForestTUp","Deer"],
+		"Tundra+Hill+Food Reserve+Farm": ["Tundra","Hill","Terrace farm","ForestTHUp","Deer"],
+		"Desert+Food Reserve+Farm": ["Desert","Farm","Bison"],
+		"Desert+Hill+Food Reserve+Farm": ["Desert","Hill","Farm","Bison"],
+		"Desert+Flood plains+Food Reserve+Farm": ["Desert","Farm+Flood plains","Ivory"],
+		
+		"Grassland+Wood+Farm": ["Grassland","FarmF","ForestF"],
+		"Grassland+Hill+Wood+Farm": ["Grassland","Hill","FarmF","ForestF"],
+		"Plains+Wood+Farm": ["Plains","FarmF","ForestF"],
+		"Plains+Hill+Wood+Farm": ["Plains","Hill","FarmF","ForestF"],
+		"Plains+Flood plains+Wood+Farm": ["Plains","Farm+Flood plainsF","ForestF"],
+		"Tundra+Wood+Farm": ["Tundra","FarmF","TFF"],
+		"Tundra+Hill+Wood+Farm": ["Tundra","Hill","FarmF","TFF"],
+		"Desert+Wood+Farm": ["Desert","FarmF","ForestF"],
+		"Desert+Hill+Wood+Farm": ["Desert","Hill","FarmF","ForestF"],
+		"Desert+Flood plains+Wood+Farm": ["Desert","Farm+Flood plainsF","ForestF"],
+		
+    }
+}

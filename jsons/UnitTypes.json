@@ -1,0 +1,75 @@
+[
+	// Civilian
+	{
+		"name": "Civilian",
+		"movementType": "Land",
+		"uniques": ["Cannot be purchased"]
+	},
+	{
+		"name": "Civilian Hero",
+		"movementType": "Land"
+	},
+	{
+		"name": "Civilian Water",
+		"movementType": "Water",
+		"uniques": ["Cannot be purchased"]
+	},
+	
+	// Human
+	{
+		"name": "Recon",
+		"movementType": "Land"
+	},
+	{
+		"name": "Infantry",
+		"movementType": "Land",
+		"uniques": ["[+25]% Strength <vs [Cavalry] units> <when attacking>"]
+	},
+	{
+		"name": "Archery",
+		"movementType": "Land",
+		"uniques": ["[+25]% Strength <vs [Infantry] units> <when attacking>"]
+	},
+	{
+		"name": "Cavalry",
+		"movementType": "Land",
+		"uniques": ["[+25]% Strength <vs [Archery] units> <when attacking>"]
+	},
+	{
+		"name": "Siege Melee",
+		"movementType": "Land",
+		"uniques": ["[+150]% Strength <vs cities>", 
+					"[+50]% Strength <vs [Archery] units> <when defending>"]
+	},
+	{
+		"name": "Siege Ranged",
+		"movementType": "Land",
+		"uniques": ["[+150]% Strength <vs cities> <when attacking>", 
+					"Ranged attacks may be performed over obstacles"]
+	},
+	{
+		"name": "Naval Melee",
+		"movementType": "Water",
+		"uniques": ["[+25]% Strength <vs [Naval Siege] units>"]
+	},
+	{
+		"name": "Naval Ranged",
+		"movementType": "Water",
+		"uniques": ["[+15]% Strength <vs [Naval Melee] units>"]
+	},
+	{
+		"name": "Naval Siege",
+		"movementType": "Water",
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>", 
+					"[+25]% Strength <vs [Naval Ranged] units> <when attacking>"]
+	},
+	{
+		"name": "Hero",
+		"movementType": "Land",
+		//"uniques": ["[+75]% Strength <vs [Set Animal] units>"]
+	},
+	{
+		"name": "Myth",
+		"movementType": "Land"
+	},
+]

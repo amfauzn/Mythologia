@@ -1,0 +1,8 @@
+[
+	{
+		"name":"Prayer",
+		"color": [225,225,255],
+		"uniques": ["Consumes [1] [Unit Slot]", 
+					"Provides [2] [Favor]"],
+	}
+]

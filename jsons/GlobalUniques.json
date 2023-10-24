@@ -1,0 +1,24 @@
+{
+	"name": "Global uniques",
+	"uniques": [
+		"Nullifies Growth [in all cities]",
+		"[-100]% Unhappiness from [Population] [in all cities]",
+		"[+3 Happiness] [in all cities]",
+		"[-100]% maintenance costs <for [All] units>",
+		"Roads connect tiles across rivers",
+		"[-90]% Culture cost of natural border growth [in all cities]",
+		"[-90]% Gold cost of acquiring tiles [in all cities]", 
+		"[+100000]% Culture cost of adopting new Policies", 
+		"Gain a free [City Center] [in all cities]", 
+		"May heal outside of friendly territory <for [Water] units>",
+		"All newly-trained [Naval] units [in all cities] receive the [Amphibious] promotion",
+		"[-100]% [Science] [in all cities]",
+		"[-1 Production] per [1] population [in all cities]", 
+		"[-1 Gold] from [River] tiles [in all cities]", 
+		// "Free [Villager] appears <upon founding a city>",
+		// "[+1 Production, +1 Culture] [in all cities] <after adopting [Classical Age]>",
+		// "[+1 Production, +1 Culture] [in all cities] <after adopting [Heroic Age]>",
+		// "[+2 Production, +2 Culture] [in all cities] <after adopting [Mythic Age]>",
+		// "[+2 Production, +2 Culture] [in all cities] <after adopting [Titan Age]>",
+	]
+}

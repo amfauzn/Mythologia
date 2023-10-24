@@ -1,0 +1,280 @@
+[
+
+	{
+		"name": "Heal Instantly",
+		"uniques": ["Heal this unit by [75] HP", 
+					"Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Recon","Infantry","Archery","Cavalry","Siege Melee","Siege Ranged","Naval Melee","Naval Ranged","Naval Siege"]
+	},
+	
+	// Human Units+Naval
+	{
+		"name": "Weapon I", // Copper Weapon
+		"uniques": ["[+15]% Strength <when attacking>"],
+		"unitTypes": ["Recon","Infantry","Archery","Cavalry","Naval Melee","Naval Ranged","Naval Siege"],
+	},
+	{
+		"name": "Weapon II", // Bronze Weapon
+		"prerequisites": ["Weapon I"],
+		"uniques": ["[+15]% Strength <when attacking>"],
+		"unitTypes": ["Recon","Infantry","Archery","Cavalry","Naval Melee","Naval Ranged","Naval Siege"],
+	},
+	{
+		"name": "Weapon III", // Iron Weapon
+		"prerequisites": ["Weapon II"],
+		"uniques": ["[+15]% Strength <when attacking>"],
+		"unitTypes": ["Recon","Infantry","Archery","Cavalry","Naval Melee","Naval Ranged","Naval Siege"],
+	},
+	{
+		"name": "Mail I", // Copper Mail
+		"uniques": ["[+15]% Strength <vs [{Melee}{Land}] units> <when defending>"],
+		"unitTypes": ["Recon","Infantry","Archery","Cavalry"],
+	},
+	{
+		"name": "Mail II", // Bronze Mail
+		"prerequisites": ["Mail I"],
+		"uniques": ["[+15]% Strength <vs [{Melee}{Land}] units> <when defending>"],
+		"unitTypes": ["Recon","Infantry","Archery","Cavalry"],
+	},
+	{
+		"name": "Mail III", // Iron Mail
+		"prerequisites": ["Mail II"],
+		"uniques": ["[+15]% Strength <vs [{Melee}{Land}] units> <when defending>"],
+		"unitTypes": ["Recon","Infantry","Archery","Cavalry"],
+	},
+	{
+		"name": "Shield I", // Copper SShields
+		"uniques": ["[+15]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Recon","Infantry","Archery","Cavalry","Naval Melee","Naval Ranged","Naval Siege"],
+	},
+	{
+		"name": "Shield II", // Bronze Shields
+		"prerequisites": ["Shield I"],
+		"uniques": ["[+15]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Recon","Infantry","Archery","Cavalry","Naval Melee","Naval Ranged","Naval Siege"],
+	},
+	{
+		"name": "Shield III", // Iron Shields
+		"prerequisites": ["Shield II"],
+		"uniques": ["[+15]% Strength <vs [{Melee}{Land}] units> <when defending>"],
+		"unitTypes": ["Recon","Infantry","Archery","Cavalry","Naval Melee","Naval Ranged","Naval Siege"],
+	},
+	
+	// Infantry
+	{
+		"name": "Medium Infantry",
+		"prerequisites": ["Weapon III","Mail III","Shield III"],
+		"uniques": ["[+10]% Strength <when attacking>"],
+		"unitTypes": ["Infantry"],
+	},
+	{
+		"name": "Heavy Infantry",
+		"prerequisites": ["Medium Infantry"],
+		"uniques": ["[+10]% Strength <when attacking>", 
+					"[+1] Sight", 
+					"Only available <starting from the [Heroic Age]>"],
+		"unitTypes": ["Infantry"],
+	},
+	{
+		"name": "Champion Infantry",
+		"prerequisites": ["Heavy Infantry"],
+		"uniques": ["[+10]% Strength", 
+					"[+1] Movement", 
+					"Only available <starting from the [Mythic Age]>"],
+		"unitTypes": ["Infantry"],
+	},
+	
+	// Archery
+	{
+		"name": "Medium Archers",
+		"prerequisites": ["Weapon III","Mail III","Shield III"],
+		"uniques": ["[+10]% Strength <when attacking>"],
+		"unitTypes": ["Archery"],
+	},
+	{
+		"name": "Heavy Archers",
+		"prerequisites": ["Medium Archers"],
+		"uniques": ["[+10]% Strength <when attacking>", 
+					"[+1] Sight", 
+					"Only available <starting from the [Heroic Age]>"],
+		"unitTypes": ["Archery"],
+	},
+	{
+		"name": "Champion Archers",
+		"prerequisites": ["Heavy Archers"],
+		"uniques": ["[+10]% Strength", 
+					"[+50]% Strength <vs cities>", 
+					"Only available <starting from the [Mythic Age]>"],
+		"unitTypes": ["Archery"],
+	},
+	
+	// Cavalry
+	{
+		"name": "Medium Cavalry",
+		"prerequisites": ["Weapon III","Mail III","Shield III"],
+		"uniques": ["[+10]% Strength <when attacking>"],
+		"unitTypes": ["Cavalry"],
+	},
+	{
+		"name": "Heavy Cavalry",
+		"prerequisites": ["Medium Cavalry"],
+		"uniques": ["[+10]% Strength <when attacking>", 
+					"[+1] Sight", 
+					"Only available <starting from the [Heroic Age]>"],
+		"unitTypes": ["Cavalry"],
+	},
+	{
+		"name": "Champion Cavalry",
+		"prerequisites": ["Heavy Cavalry"],
+		"uniques": ["[+10]% Strength", 
+					"[+1] Movement", 
+					"Only available <starting from the [Mythic Age]>"],
+		"unitTypes": ["Cavalry"],
+	},
+	
+	// Siege Weapons
+	{
+		"name": "Iron Head",
+		"uniques": ["[+15]% Strength <when attacking>"],
+		"unitTypes": ["Siege Melee"],
+	},
+	{
+		"name": "Accuracy",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Siege Ranged"],
+	},
+	{
+		"name": "Iron Armor",
+		"uniques": ["[+15]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Siege Melee","Siege Ranged"],
+	},
+	{
+		"name": "Forced Breakthrough",
+		"prerequisites": ["Iron Head"],
+		"uniques": ["Ignores Zone of Control"],
+		"unitTypes": ["Siege Melee"]
+	},
+	{
+		"name": "Barrage",
+		"prerequisites": ["Accuracy"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Siege Ranged"],
+	},
+	{
+		"name": "Volley", // Burning Pitch
+		"prerequisites": ["Forced Breakthrough"],
+		"uniques": ["[+50]% Strength <vs cities>", 
+					"[+50]% Strength <vs [Naval] units>"],
+		"unitTypes": ["Siege Melee","Siege Ranged"],
+	},
+	{
+		"name": "Draft Horse",
+		"prerequisites": ["Forced Breakthrough","Accuracy"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Siege Melee","Siege Ranged"],
+	},
+	{
+		"name": "Engineers",
+		"prerequisites": ["Volley"],
+		"uniques": ["[+50]% Strength <when attacking>"],
+		"unitTypes": ["Siege Melee"],
+	},
+	{
+		"name": "Extended Range",
+		"prerequisites": ["Volley"],
+		"uniques": ["[+1] Range"],
+		"unitTypes": ["Siege Ranged"],
+	},
+	
+	// Naval
+	{
+		"name": "Hull I", // Copper Hull
+		"uniques": ["[+10]% Strength <vs [Melee] units> <when defending>"],
+		"unitTypes": ["Naval Melee","Naval Ranged","Naval Siege"],
+	},
+	{
+		"name": "Hull II", // Bronze Hull
+		"prerequisites": ["Hull I"],
+		"uniques": ["[+10]% Strength <vs [Melee] units> <when defending>"],
+		"unitTypes": ["Naval Melee","Naval Ranged","Naval Siege"],
+	},
+	{
+		"name": "Hull III", // Iron Hull
+		"prerequisites": ["Hull II"],
+		"uniques": ["[+10]% Strength <vs [Melee] units> <when defending>"],
+		"unitTypes": ["Naval Melee","Naval Ranged","Naval Siege"],
+	},
+	{
+		"name": "Reinforced Ram",
+		"prerequisites": ["Weapon III","Hull III","Shield III"],
+		"uniques": ["[+10]% Strength", 
+					"Earn [50]% of the damage done to [City] units as [Gold]"],
+		"unitTypes": ["Naval Melee"],
+	},
+	{
+		"name": "Seek and Destroy",
+		"prerequisites": ["Weapon III","Hull III","Shield III"],
+		"uniques": ["[+10]% Strength <vs [Wounded] units>", 
+					"[+1] Movement", 
+					"[+1] Sight", 
+					"Only available <starting from the [Mythic Age]>"],
+		"unitTypes": ["Naval Melee"]
+	},
+	{
+		"name": "Arrow Ship Cladding",
+		"prerequisites": ["Weapon III","Hull III","Shield III"],
+		"uniques": ["[+10]% Strength", 
+					"[+1] Range"],
+		"unitTypes": ["Naval Ranged"],
+	},
+	{
+		"name": "Burning Pitch",
+		"prerequisites": ["Weapon III","Hull III","Shield III"],
+		"uniques": ["[+15]% Strength <when attacking>", 
+					"[+50]% Strength <vs cities>", 
+					"Only available <starting from the [Mythic Age]>"],
+		"unitTypes": ["Naval Ranged"],
+	},
+	{
+		"name": "Bombardment",
+		"prerequisites": ["Weapon III","Hull III","Shield III"],
+		"uniques": ["[+25]% Strength <vs [Land] units>"
+					"[+50]% Strength <vs cities>"],
+		"unitTypes": ["Naval Siege"],
+	},
+	{
+		"name": "Naval Oxybeles",
+		"prerequisites": ["Weapon III","Hull III","Shield III"],
+		"uniques": ["[+10]% Strength", 
+					"[+1] Range", 
+					"Only available <starting from the [Mythic Age]>"],
+		"unitTypes": ["Naval Siege"],
+	},
+	{
+		"name": "Heroic Fleet",
+		"prerequisites": ["Weapon III","Hull III","Shield III"],
+		"uniques": ["[+250]% Strength <vs [Myth] units>"],
+		"unitTypes": ["Naval Melee","Naval Ranged","Naval Siege"],
+	},
+	
+	// Unique
+	{
+		"name": "Lone Wanderer",
+		"uniques": ["[+10] HP when healing"]
+	},
+	{
+		"name": "Atonement",
+		"uniques": ["May capture killed [Myth] units <with [67]% chance>", 
+					"All adjacent units heal [+5] HP when healing"]
+	},
+	{
+		"name": "Prayer",
+		"uniques": ["[+1] population in a random city <by consuming this unit>"]
+	},
+	
+	// Game Mechanics
+	{
+		"name": "Amphibious",
+		"uniques": ["Eliminates combat penalty for attacking across a coast"]
+	},
+]

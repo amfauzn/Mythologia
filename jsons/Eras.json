@@ -1,0 +1,67 @@
+[
+	{
+		"name": "Archaic Age",
+		"startingSettlerCount": 0,
+		"startingWorkerCount": 0,
+		"startingMilitaryUnitCount": 1,
+		"startingMilitaryUnit": "Warrior",
+		"settlerPopulation": 3,
+		"baseUnitBuyCost": 100,
+		"embarkDefense": 4,
+		"startPercent": 0,
+		"citySound": "cityAncient",
+		"iconRGB": [255, 87, 35]
+	},
+	{
+		"name": "Classical Age",
+		"startingSettlerCount": 0,
+		"startingWorkerCount": 0,
+		"startingMilitaryUnitCount": 1,
+		"startingMilitaryUnit": "Warrior",
+		"settlerPopulation": 3,
+		"baseUnitBuyCost": 100,
+		"embarkDefense": 8,
+		"startPercent": 10,
+		"citySound": "cityClassical",
+		"iconRGB": [233, 31, 99]
+	},
+	{
+		"name": "Heroic Age",
+		"startingSettlerCount": 0,
+		"startingWorkerCount": 0,
+		"startingMilitaryUnitCount": 1,
+		"startingMilitaryUnit": "Warrior",
+		"settlerPopulation": 3,
+		"baseUnitBuyCost": 150,
+		"embarkDefense": 12,
+		"startPercent": 30,
+		"citySound": "cityMedieval",
+		"iconRGB": [157, 39, 176]
+	},
+	{
+		"name": "Mythic Age",
+		"startingSettlerCount": 0,
+		"startingWorkerCount": 0,
+		"startingMilitaryUnitCount": 1,
+		"startingMilitaryUnit": "Warrior",
+		"settlerPopulation": 3,
+		"baseUnitBuyCost": 150,
+		"embarkDefense": 16,
+		"startPercent": 0,
+		"citySound": "cityIndustrial",
+		"iconRGB": [104, 58, 183]
+	},
+	{
+		"name": "Titan Age",
+		"startingSettlerCount": 0,
+		"startingWorkerCount": 0,
+		"startingMilitaryUnitCount": 1,
+		"startingMilitaryUnit": "Warrior",
+		"settlerPopulation": 3,
+		"baseUnitBuyCost": 200,
+		"embarkDefense": 20,
+		"startPercent": 0,
+		"citySound": "cityAtomic",
+		"iconRGB": [63, 81, 182]
+	}
+]

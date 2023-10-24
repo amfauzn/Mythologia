@@ -1,0 +1,135 @@
+[
+	// Base terrains
+	{
+		"name": "Coast",
+		"type": "Water",
+		"movementCost": 1,
+		"RGB": [107,167,193]
+	},
+	{
+		"name": "Grassland",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [97,171,58]
+	},
+	{
+		"name": "Plains",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [168,185,102],
+		"uniques": ["Becomes [Flood plains] when adjacent to [River]"]
+	},
+	{
+		"name": "Tundra",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [189,204,191]
+	},
+	{
+		"name": "Desert",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [ 230, 230, 113],
+		"uniques": ["Becomes [Flood plains] when adjacent to [River]"]
+	},
+	{
+		"name": "Snow",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [231, 242, 249],
+		"uniques": ["Always Fertility [-1] for Map Generation",
+					"Considered [Undesirable] when determining start locations",
+					"Becomes [Tundra] when adjacent to [River]",
+					"Never receives any resources <in [Hill] tiles>"]
+	},
+	{
+		"name": "Lakes",
+		"type": "Water",
+		"RGB": [ 123, 202, 226],
+		"uniques": ["Fresh water"]
+	},
+	{
+		"name": "Mountain",
+		"type": "Land",
+		"movementCost": 3,
+		"defenceBonus": 0.25,
+		"RGB": [120, 120, 120],
+		"uniques": ["Rough terrain",
+					"[+5] Strength for cities built on this terrain",
+					"Has an elevation of [4] for visibility calculations",
+					"Occurs in chains at high elevations",
+					"[+1] Sight <for [All] units>"
+					//"[+5]% Strength <for [Military] units> <when attacking>"
+					]
+	},
+
+	// Terrain features
+	{
+		"name": "Hill",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
+		"uniques": ["Rough terrain",
+					"[+5] Strength for cities built on this terrain",
+					"Has an elevation of [2] for visibility calculations",
+					"Occurs in groups around high elevations"]
+	},
+	/*{
+		"name": "Marsh",
+		"type": "TerrainFeature",
+		"movementCost": 3,
+		"unbuildable": true,
+		"defenceBonus": -0.15,
+		"occursOn": ["Grassland"],
+		"uniques": ["Rare feature", 
+					"Provides [3] [Food Reserve]", 
+					"Provides [3] [Wood]", 
+					"Tile provides yield without assigned population <starting from the [Classical Age]>"]
+	},*/
+	{
+		"name": "Fallout",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"unbuildable": true,
+		"uniques": ["Nullifies all other stats this tile provides", 
+					"Doesn't generate naturally"],
+		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Flood plains"/*,"Marsh","Oasis"*/]
+		"defenceBonus": -0.15
+	},
+	/*{
+		"name": "Oasis",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"unbuildable": true,
+		"defenceBonus": -0.1,
+		"occursOn": ["Desert"],
+		"uniques": ["Fresh water", 
+					"Rare feature", 
+					"Provides [6] [Gold Ore]", 
+					"Tile provides yield without assigned population <starting from the [Classical Age]>"]
+	},*/
+	{
+		"name": "Flood plains",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"defenceBonus": -0.1,
+		"occursOn": ["Desert","Plains"]
+	},
+	{
+		"name": "Ice",
+		"type": "TerrainFeature",
+		"impassable": true,
+		"overrideStats": true,
+		"occursOn": ["Coast"],
+		"uniques": ["Occurs at temperature between [-1] and [-0.8] and humidity between [0] and [1]"]
+	},
+	{
+		"name": "Atoll",
+		"type": "TerrainFeature",
+		"defenceBonus": 0.25,
+		"occursOn": ["Coast"],
+		"uniques": ["Rare feature"]
+	}
+]

@@ -1,0 +1,53 @@
+[
+	{
+		"name": "Supremacy",
+		"victoryScreenHeader": "Build the Wonder to win!",
+		"milestones": ["Build [Wonder]"],
+		"victoryString": "You have achieved victory through the awesome power of your Culture. Your civilization's greatness - the magnificence of its monuments and the power of its artists - have astounded the world! Poets will honor you as long as beauty brings gladness to a weary heart.",
+		"defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+	},
+	{
+		"name": "Sudden Death",
+		"victoryScreenHeader": "Capture all enemies' capital\nto win!",
+		"milestones": ["Capture all capitals"],
+		"victoryString": "The world has been convulsed by war. Many great and powerful civilizations have lost control of their sovereignty, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+		"defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+	},
+	{
+		"name": "Conquest",
+		"victoryScreenHeader": "Destroy all enemies\nto win!",
+		"milestones": ["Destroy all players"],
+		"victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+		"defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+	},
+	{
+		"name": "King of the Hill",
+		"victoryScreenHeader": "Build the Empty Throne and be voted\nworld leader to win!",
+		"milestones": ["Anyone should build [Empty Throne]", "Win diplomatic vote"],
+		"victoryString": "You have triumphed over your foes through the art of diplomacy! Your cunning and wisdom have earned you great friends - and divided and sown confusion among your enemies! Forever will you be remembered as the leader who brought peace to this weary world!",
+		"defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+	},
+	{
+		"name": "Time",
+		"hiddenInVictoryScreen": true,
+		"milestones": ["Have highest score after max turns"],
+		"victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+		"defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+	},
+	
+	{
+		"name": "mode_Unlimited Unit",
+		"hiddenInVictoryScreen": true,
+		"milestones": ["Build [UnlimitedUnitAntiWinner]"]
+	},
+	{
+		"name": "mode_Multi Cities",
+		"hiddenInVictoryScreen": true,
+		"milestones": ["Build [MultiCitiesAntiWinner]"]
+	},
+	{
+		"name": "mode_Construct Scout",
+		"hiddenInVictoryScreen": true,
+		"milestones": ["Build [ScoutAntiWinner]"]
+	},
+]
