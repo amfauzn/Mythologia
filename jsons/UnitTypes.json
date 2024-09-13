@@ -3,7 +3,9 @@
 	{
 		"name": "Civilian",
 		"movementType": "Land",
-		"uniques": ["Cannot be purchased"]
+		"uniques": [
+			"Cannot be purchased"
+		]
 	},
 	{
 		"name": "Civilian Hero",
@@ -12,10 +14,12 @@
 	{
 		"name": "Civilian Water",
 		"movementType": "Water",
-		"uniques": ["Cannot be purchased"]
+		"uniques": [
+			"Cannot be purchased"
+		]
 	},
 	
-	// Human
+	// Military
 	{
 		"name": "Recon",
 		"movementType": "Land"
@@ -23,45 +27,67 @@
 	{
 		"name": "Infantry",
 		"movementType": "Land",
-		"uniques": ["[+25]% Strength <vs [Cavalry] units> <when attacking>"]
+		"uniques": [
+			//"Human",
+			"[+25]% Strength <vs [Cavalry] units> <when attacking>"
+		]
 	},
 	{
 		"name": "Archery",
 		"movementType": "Land",
-		"uniques": ["[+25]% Strength <vs [Infantry] units> <when attacking>"]
+		"uniques": [
+			//"Human",
+			"[+25]% Strength <vs [Infantry] units> <when attacking>"
+		]
 	},
 	{
 		"name": "Cavalry",
 		"movementType": "Land",
-		"uniques": ["[+25]% Strength <vs [Archery] units> <when attacking>"]
+		"uniques": [
+			//"Human",
+			"[+25]% Strength <vs [Archery] units> <when attacking>"
+		]
 	},
 	{
 		"name": "Siege Melee",
 		"movementType": "Land",
-		"uniques": ["[+150]% Strength <vs cities>", 
-					"[+50]% Strength <vs [Archery] units> <when defending>"]
+		"uniques": [
+			//"Siege",
+			"[+150]% Strength <vs cities>",
+			"[+50]% Strength <vs [Archery] units> <when defending>"
+		]
 	},
 	{
 		"name": "Siege Ranged",
 		"movementType": "Land",
-		"uniques": ["[+150]% Strength <vs cities> <when attacking>", 
-					"Ranged attacks may be performed over obstacles"]
+		"uniques": [
+			//"Siege",
+			"[+150]% Strength <vs cities> <when attacking>",
+			"Ranged attacks may be performed over obstacles"
+		]
 	},
 	{
 		"name": "Naval Melee",
 		"movementType": "Water",
-		"uniques": ["[+25]% Strength <vs [Naval Siege] units>"]
+		"uniques": [
+			"[+25]% Strength <vs [Naval Siege] units>"
+		]
 	},
 	{
 		"name": "Naval Ranged",
 		"movementType": "Water",
-		"uniques": ["[+15]% Strength <vs [Naval Melee] units>"]
+		"uniques": [
+			"[+15]% Strength <vs [Naval Melee] units>"
+		]
 	},
 	{
 		"name": "Naval Siege",
 		"movementType": "Water",
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>", 
-					"[+25]% Strength <vs [Naval Ranged] units> <when attacking>"]
+		"uniques": [
+			//"Siege",
+			"[+100]% Strength <vs cities> <when attacking>",
+			"[+25]% Strength <vs [Naval Ranged] units> <when attacking>"
+		]
 	},
 	{
 		"name": "Hero",

@@ -43,7 +43,7 @@
 	{
 		"name": "mode_Multi Cities",
 		"hiddenInVictoryScreen": true,
-		"milestones": ["Build [MultiCitiesAntiWinner]"]
+		"milestones": ["Build [MultiCitiestAntiWinner]"]
 	},
 	{
 		"name": "mode_Construct Scout",

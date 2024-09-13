@@ -7,9 +7,11 @@
 		"cityStrength": 5,
 		"cityHealth": 10,
 		"cost": 1,
-		"uniques": ["Indicates the capital city", 
-					"Instantly provides [100] [Food Reserve]", 
-					"Provides [15] [Unit Slot]"]
+		"uniques": [
+			"Indicates the capital city",
+			"Instantly provides [100] [Food Reserve]",
+			"Provides [15] [Unit Slot]"
+		]
 	},
 	{
 		"name": "City Center",
@@ -21,38 +23,46 @@
 	{
 		"name": "Houses",
 		"cost": 30,
-		"uniques": ["Costs [150] [Wood]", 
-					"Provides [135] [Unit Slot]",
-					"Limited to [1] per Civilization"]
+		"uniques": [
+			"Costs [150] [Wood]",
+			"Provides [135] [Unit Slot]"
+			"Limited to [1] per Civilization"
+		]
 	},
 	{
 		"name": "Wooden Walls",
 		"cityStrength": 5,
 		"cityHealth": 15,
 		"cost": 6,
-		"uniques": ["Costs [20] [Wood]", 
-					"Destroyed when the city is captured"]
+		"uniques": [
+			"Costs [20] [Wood]",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Dock",
 		"cost": 8,
 		"hurryCostModifier": 25,
-		"uniques": ["Costs [100] [Wood]", 
-					"Enables construction Naval units", 
-					"Enables embarkation for land units", 
-					"Creates a [Dock] improvement on a specific tile", 
-					"Connects trade routes over water", 
-					"Must be next to [Coast]", 
-					"Destroyed when the city is captured"]
+		"uniques": [
+			"Costs [100] [Wood]",
+			"Comment [Enables construction Naval units]",
+			"Enables embarkation for land units",
+			"Creates a [Dock] improvement on a specific tile",
+			"Connects trade routes over water",
+			"Must be next to [Coast]",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Temple",
 		"cityHealth": 10,
 		"cost": 8,
-		"uniques": ["Costs [100] [Wood]", 
-					"Costs [100] [Gold Ore]", 
-					"Enables construction Myth & Hero units", 
-					"Destroyed when the city is captured"]
+		"uniques": [
+			"Costs [100] [Wood]",
+			"Costs [100] [Gold Ore]",
+			"Comment [Enables construction Myth & Hero units]",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Garden",
@@ -60,12 +70,14 @@
 		"replaces": "Temple",
 		"cityHealth": 10,
 		"cost": 8,
-		"uniques": ["Costs [75] [Food Reserve]", 
-					"Costs [75] [Gold Ore]", 
-					"Costs [75] [Wood]", 
-					"[+50]% Production when constructing [Archery] units [in this city]", 
-					"Enables construction Myth & Hero units", 
-					"Destroyed when the city is captured"]
+		"uniques": [
+			"Costs [75] [Food Reserve]",
+			"Costs [75] [Gold Ore]",
+			"Costs [75] [Wood]",
+			"[+50]% Production when constructing [Archery] units [in this city]",
+			"Comment [Enables construction Myth & Hero units]",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Monument",
@@ -74,10 +86,12 @@
 		"cityHealth": 10,
 		"culture": 2,
 		"cost": 8,
-		"uniques": ["Costs [50] [Wood]", 
-					"Costs [50] [Gold Ore]", 
-					"Enables construction Myth & Hero units", 
-					"Destroyed when the city is captured"]
+		"uniques": [
+			"Costs [50] [Wood]",
+			"Costs [50] [Gold Ore]",
+			"Comment [Enables construction Myth & Hero units]",
+			"Destroyed when the city is captured"
+		]
 	},
 	
 	// Classical Age
@@ -87,91 +101,109 @@
 		"cityHealth": 15,
 		"cost": 10,
 		"requiredBuilding": "Wooden Walls",
-		"uniques": ["Costs [30] [Gold Ore]", 
-					"Only available <starting from the [Classical Age]>", 
-					"Destroyed when the city is captured"]
+		"uniques": [
+			"Costs [30] [Gold Ore]",
+			"Only available <starting from the [Classical Age]>",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Armory",
 		"cityHealth": 10,
 		"cost": 8,
-		"uniques": ["Costs [75] [Wood]", 
-					"Only available <starting from the [Classical Age]>", 
-					"Destroyed when the city is captured"]
+		"uniques": [
+			"Costs [75] [Wood]",
+			"Only available <starting from the [Classical Age]>",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Barracks",
 		"cost": 8,
-		"uniques": ["Costs [100] [Wood]", 
-					"Enables construction Infantry units", 
-					"Creates a [Barracks] improvement on a specific tile", 
-					"Only available <starting from the [Classical Age]>", 
-					"Destroyed when the city is captured"]
+		"uniques": [
+			"Costs [100] [Wood]",
+			"Comment [Enables construction Infantry units]",
+			"Creates a [Barracks] improvement on a specific tile",
+			"Only available <starting from the [Classical Age]>",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Military Academy",
 		"uniqueTo": "Greek",
 		"replaces": "Barracks",
 		"cost": 8,
-		"uniques": ["Costs [100] [Wood]", 
-					"Enables construction Infantry units", 
-					"New [Infantry] units start with [10] Experience [in this city]", 
-					"Creates a [Military Academy] improvement on a specific tile", 
-					"Only available <starting from the [Classical Age]>", 
-					"Destroyed when the city is captured"]
+		"uniques": [
+			"Costs [100] [Wood]",
+			"Comment [Enables construction Infantry units]",
+			"New [Infantry] units start with [10] Experience [in this city]",
+			"Creates a [Military Academy] improvement on a specific tile",
+			"Only available <starting from the [Classical Age]>",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Longhouse",
 		"uniqueTo": "Norse",
 		"replaces": "Barracks",
 		"cost": 8,
-		"uniques": ["Costs [125] [Wood]", 
-					"Enables construction Human units", 
-					"Also replaces [Archery Range]", 
-					"Also replaces [Stable]", 
-					"Creates a [Longhouse] improvement on a specific tile", 
-					"Only available <starting from the [Classical Age]>", 
-					"Destroyed when the city is captured"]
+		"uniques": [
+			"Costs [125] [Wood]",
+			"Comment [Enables construction Human units]",
+			"Comment [Also replaces [Archery Range]]",
+			"Comment [Also replaces [Stable]]",
+			"Creates a [Longhouse] improvement on a specific tile",
+			"Only available <starting from the [Classical Age]>",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Archery Range",
 		"cost": 8,
-		"uniques": ["Costs [100] [Wood]", 
-					"Enables construction Archery units", 
-					"Creates a [Archery Range] improvement on a specific tile", 
-					"Only available <starting from the [Classical Age]>", 
-					"Destroyed when the city is captured"]
+		"uniques": [
+			"Costs [100] [Wood]",
+			"Comment [Enables construction Archery units]",
+			"Creates a [Archery Range] improvement on a specific tile",
+			"Only available <starting from the [Classical Age]>",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Archery Ranges",
 		"uniqueTo": "Norse",
 		"replaces": "Archery Range",
 		"cost": 8,
-		"uniques": ["Costs [100] [Wood]", 
-					"Enables construction Archery units", 
-					"Destroyed when the city is captured" 
-					"Unbuildable", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [100] [Wood]",
+			"Comment [Enables construction Archery units]",
+			"Destroyed when the city is captured",
+			"Unbuildable",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Stable",
 		"cost": 8,
-		"uniques": ["Costs [100] [Wood]", 
-					"Enables construction Cavalry units", 
-					"Creates a [Stable] improvement on a specific tile", 
-					"Only available <starting from the [Classical Age]>", 
-					"Destroyed when the city is captured"]
+		"uniques": [
+			"Costs [100] [Wood]",
+			"Comment [Enables construction Cavalry units]",
+			"Creates a [Stable] improvement on a specific tile",
+			"Only available <starting from the [Classical Age]>",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Stables",
 		"uniqueTo": "Norse",
 		"replaces": "Stable",
 		"cost": 8,
-		"uniques": ["Costs [100] [Wood]", 
-					"Enables construction Cavalry units", 
-					"Destroyed when the city is captured", 
-					"Unbuildable", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [100] [Wood]",
+			"Comment [Enables construction Cavalry units]",
+			"Destroyed when the city is captured",
+			"Unbuildable",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	
 	// Heroic Age
@@ -181,29 +213,35 @@
 		"cityHealth": 15,
 		"cost": 16,
 		"requiredBuilding": "Stone Walls",
-		"uniques": ["Costs [50] [Gold Ore]", 
-					"Only available <starting from the [Heroic Age]>", 
-					"Destroyed when the city is captured"]
+		"uniques": [
+			"Costs [50] [Gold Ore]",
+			"Only available <starting from the [Heroic Age]>",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Market",
 		"cost": 8,
-		"uniques": ["Costs [300] [Wood]", 
-					"Limited to [1] per Civilization", 
-					"Only available <starting from the [Heroic Age]>", 
-					"Destroyed when the city is captured"]
+		"uniques": [
+			"Costs [300] [Wood]",
+			"Limited to [1] per Civilization",
+			"Only available <starting from the [Heroic Age]>",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Castle",
 		"cityHealth": 10,
 		"cost": 14,
-		"uniques": ["Costs [300] [Gold Ore]", 
-					"Costs [300] [Wood]", 
-					"Costs [10] [Favor]", 
-					"Enables construction Siege weapons", 
-					"Creates a [Castle] improvement on a specific tile", 
-					"Only available <starting from the [Heroic Age]>", 
-					"Destroyed when the city is captured"]
+		"uniques": [
+			"Costs [300] [Gold Ore]",
+			"Costs [300] [Wood]",
+			"Costs [10] [Favor]",
+			"Comment [Enables construction Siege weapons]",
+			"Creates a [Castle] improvement on a specific tile",
+			"Only available <starting from the [Heroic Age]>",
+			"Destroyed when the city is captured"
+		]
 	},
 	
 	// Mythic Age
@@ -213,224 +251,271 @@
 		"cityHealth": 15,
 		"cost": 20,
 		"requiredBuilding": "Fortified Walls",
-		"uniques": ["Costs [80] [Gold Ore]", 
-					"Only available <starting from the [Mythic Age]>", 
-					"Destroyed when the city is captured"]
+		"uniques": [
+			"Costs [80] [Gold Ore]",
+			"Only available <starting from the [Mythic Age]>",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Wonder",
 		"isWonder": true,
 		"cost": 80,
-		"uniques": ["Costs [1000] [Food Reserve]", 
-					"Costs [1000] [Gold Ore]", 
-					"Costs [1000] [Wood]", 
-					"Costs [50] [Favor]", 
-					"Triggers a global alert upon build start", 
-					"Triggers victory", 
-					"Cannot be hurried", 
-					"Only available <starting from the [Mythic Age]>"],
+		"uniques": [
+			"Costs [1000] [Food Reserve]",
+			"Costs [1000] [Gold Ore]",
+			"Costs [1000] [Wood]",
+			"Costs [50] [Favor]",
+			"Triggers a global alert upon build start",
+			"Triggers victory",
+			"Cannot be hurried",
+			"Only available <starting from the [Mythic Age]>"
+		],
 		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
 	},
 	{
 		"name": "Empty Throne",
 		"isWonder": true,
 		"cost": 20,
-		"uniques": ["Triggers voting for the Diplomatic Victory", 
-					"Hidden when [King of the Hill] Victory is disabled", 
-					"Triggers a global alert upon completion", 
-					"Cannot be hurried", 
-					"Only available <starting from the [Mythic Age]>"],
+		"uniques": [
+			"Triggers voting for the Diplomatic Victory",
+			"Hidden when [King of the Hill] Victory is disabled",
+			"Triggers a global alert upon completion",
+			"Cannot be hurried",
+			"Only available <starting from the [Mythic Age]>"
+		],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together...' - Kofi Annan"
 	},
+	
 	
 	// Tech Picker
 	{
 		"name": "Husbandry",
 		"cost": 6,
-		"uniques": ["Costs [100] [Wood]", 
-					"Costs [75] [Gold Ore]", 
-					"Discover [Husbandry]", 
-					"Only available <before discovering [Husbandry]>", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [100] [Wood]",
+			"Costs [75] [Gold Ore]",
+			"Discover [Husbandry]",
+			"Only available <before discovering [Husbandry]>",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Pickaxe",
 		"cost": 6,
-		"uniques": ["Costs [50] [Food Reserve]", 
-					"Costs [120] [Wood]", 
-					"Discover [Pickaxe]", 
-					"Only available <before discovering [Pickaxe]>", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [50] [Food Reserve]",
+			"Costs [120] [Wood]",
+			"Discover [Pickaxe]",
+			"Only available <before discovering [Pickaxe]>",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Hand Axe",
 		"cost": 6,
-		"uniques": ["Costs [120] [Food Reserve]", 
-					"Costs [50] [Gold Ore]", 
-					"Discover [Hand Axe]", 
-					"Only available <before discovering [Hand Axe]>", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [120] [Food Reserve]",
+			"Costs [50] [Gold Ore]",
+			"Discover [Hand Axe]",
+			"Only available <before discovering [Hand Axe]>",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Plow",
 		"cost": 8,
 		"requiredBuilding": "Husbandry",
-		"uniques": ["Costs [50] [Wood]", 
-					"Costs [100] [Gold Ore]", 
-					"Discover [Plow]", 
-					"Only available <starting from the [Classical Age]> <before discovering [Plow]>", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [50] [Wood]",
+			"Costs [100] [Gold Ore]",
+			"Discover [Plow]",
+			"Only available <starting from the [Classical Age]> <before discovering [Plow]>",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Shaft Mine",
 		"cost": 9,
 		"requiredBuilding": "Pickaxe",
-		"uniques": ["Costs [150] [Food Reserve]", 
-					"Costs [250] [Wood]", 
-					"Discover [Shaft Mine]", 
-					"Only available <starting from the [Classical Age]> <before discovering [Shaft Mine]>", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [150] [Food Reserve]",
+			"Costs [250] [Wood]",
+			"Discover [Shaft Mine]",
+			"Only available <starting from the [Classical Age]> <before discovering [Shaft Mine]>",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Bow Saw",
 		"cost": 9,
 		"requiredBuilding": "Hand Axe",
-		"uniques": ["Costs [250] [Food Reserve]", 
-					"Costs [150] [Gold Ore]", 
-					"Discover [Bow Saw]", 
-					"Only available <starting from the [Classical Age]> <before discovering [Bow Saw]>", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [250] [Food Reserve]",
+			"Costs [150] [Gold Ore]",
+			"Discover [Bow Saw]",
+			"Only available <starting from the [Classical Age]> <before discovering [Bow Saw]>",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Irrigation",
 		"cost": 6,
 		"requiredBuilding": "Plow",
-		"uniques": ["Costs [150] [Wood]", 
-					"Costs [250] [Gold Ore]", 
-					"Discover [Irrigation]", 
-					"Only available <starting from the [Heroic Age]> <before discovering [Irrigation]>", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [150] [Wood]",
+			"Costs [250] [Gold Ore]",
+			"Discover [Irrigation]",
+			"Only available <starting from the [Heroic Age]> <before discovering [Irrigation]>",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Quarry",
 		"cost": 11,
 		"requiredBuilding": "Shaft Mine",
-		"uniques": ["Costs [200] [Food Reserve]", 
-					"Costs [300] [Wood]", 
-					"Discover [Quarry]", 
-					"Only available <starting from the [Heroic Age]> <before discovering [Quarry]>", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [200] [Food Reserve]",
+			"Costs [300] [Wood]",
+			"Discover [Quarry]",
+			"Only available <starting from the [Heroic Age]> <before discovering [Quarry]>",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Carpenters",
 		"cost": 6,
 		"requiredBuilding": "Bow Saw",
-		"uniques": ["Costs [300] [Food Reserve]", 
-					"Costs [200] [Gold Ore]", 
-					"Discover [Carpenters]", 
-					"Only available <starting from the [Heroic Age]> <before discovering [Carpenters]>", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [300] [Food Reserve]",
+			"Costs [200] [Gold Ore]",
+			"Discover [Carpenters]",
+			"Only available <starting from the [Heroic Age]> <before discovering [Carpenters]>",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Ambassador",
 		"cost": 6,
 		"requiredBuilding": "Market",
-		"uniques": ["Costs [250] [Gold Ore]", 
-					"Discover [Ambassador]", 
-					"Only available <starting from the [Heroic Age]> <before discovering [Ambassador]>", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [250] [Gold Ore]",
+			"Discover [Ambassador]",
+			"Only available <starting from the [Heroic Age]> <before discovering [Ambassador]>",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Tax Collectors",
 		"cost": 7,
 		"requiredBuilding": "Market",
-		"uniques": ["Costs [200] [Food Reserve]", 
-					"Costs [200] [Gold Ore]", 
-					"Discover [Tax Collectors]", 
-					"Only available <starting from the [Heroic Age]> <before discovering [Tax Collectors]>", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [200] [Food Reserve]",
+			"Costs [200] [Gold Ore]",
+			"Discover [Tax Collectors]",
+			"Only available <starting from the [Heroic Age]> <before discovering [Tax Collectors]>",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Levy Infantry",
 		"cost": 4,
 		"requiredBuilding": "Barracks",
-		"uniques": ["Costs [150] [Food Reserve]", 
-					"Discover [Levy Infantry]", 
-					"Only available <starting from the [Heroic Age]> <before discovering [Conscript Infantry]>", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [150] [Food Reserve]",
+			"Discover [Levy Infantry]",
+			"Only available <starting from the [Heroic Age]> <before discovering [Conscript Infantry]>",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Levy Archers",
 		"cost": 4,
 		"requiredBuilding": "Archery Range",
-		"uniques": ["Costs [150] [Food Reserve]", 
-					"Discover [Levy Archers]", 
-					"Only available <starting from the [Heroic Age]> <before discovering [Conscript Archers]>", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [150] [Food Reserve]",
+			"Discover [Levy Archers]",
+			"Only available <starting from the [Heroic Age]> <before discovering [Conscript Archers]>",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Levy Cavalry",
 		"cost": 4,
 		"requiredBuilding": "Stable",
-		"uniques": ["Costs [150] [Food Reserve]", 
-					"Discover [Levy Cavalry]", 
-					"Only available <starting from the [Heroic Age]> <before discovering [Conscript Cavalry]>", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [150] [Food Reserve]",
+			"Discover [Levy Cavalry]",
+			"Only available <starting from the [Heroic Age]> <before discovering [Conscript Cavalry]>",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Flood Control",
 		"cost": 8,
 		"requiredBuilding": "Irrigation",
-		"uniques": ["Costs [250] [Wood]", 
-					"Costs [350] [Gold Ore]", 
-					"Discover [Flood Control]", 
-					"Only available <starting from the [Mythic Age]> <before discovering [Flood Control]>", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [250] [Wood]",
+			"Costs [350] [Gold Ore]",
+			"Discover [Flood Control]",
+			"Only available <starting from the [Mythic Age]> <before discovering [Flood Control]>",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Coinage",
 		"cost": 8,
 		"requiredBuilding": "Market",
-		"uniques": ["Costs [200] [Gold Ore]", 
-					"Gain [500] [Gold]", 
-					"Discover [Coinage]", 
-					"Only available <starting from the [Mythic Age]> <before discovering [Coinage]>", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [200] [Gold Ore]",
+			"Gain [500] [Gold]",
+			"Discover [Coinage]",
+			"Only available <starting from the [Mythic Age]> <before discovering [Coinage]>",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Conscript Infantry",
 		"cost": 8,
 		"requiredBuilding": "Levy Infantry",
-		"uniques": ["Costs [500] [Food Reserve]", 
-					"Discover [Conscript Infantry]", 
-					"Only available <starting from the [Mythic Age]> <before discovering [Conscript Infantry]>", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [500] [Food Reserve]",
+			"Discover [Conscript Infantry]",
+			"Only available <starting from the [Mythic Age]> <before discovering [Conscript Infantry]>",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Conscript Archers",
 		"cost": 8,
 		"requiredBuilding": "Levy Archers",
-		"uniques": ["Costs [500] [Food Reserve]", 
-					"Discover [Conscript Archers]", 
-					"Only available <starting from the [Mythic Age]> <before discovering [Conscript Archers]>", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [500] [Food Reserve]",
+			"Discover [Conscript Archers]",
+			"Only available <starting from the [Mythic Age]> <before discovering [Conscript Archers]>",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Conscript Cavalry",
 		"cost": 8,
 		"requiredBuilding": "Levy Cavalry",
-		"uniques": ["Costs [500] [Food Reserve]", 
-					"Discover [Conscript Cavalry]", 
-					"Only available <starting from the [Mythic Age]> <before discovering [Conscript Cavalry]>", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [500] [Food Reserve]",
+			"Discover [Conscript Cavalry]",
+			"Only available <starting from the [Mythic Age]> <before discovering [Conscript Cavalry]>",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Conscript Sailors",
 		"cost": 6,
-		"uniques": ["Costs [500] [Wood]", 
-					"Discover [Conscript Sailors]", 
-					"Only available <starting from the [Mythic Age]> <before discovering [Conscript Sailors]>", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [500] [Wood]",
+			"Discover [Conscript Sailors]",
+			"Only available <starting from the [Mythic Age]> <before discovering [Conscript Sailors]>",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	
 	// Age Advancement
@@ -439,51 +524,59 @@
 		"isNationalWonder": true,
 		"cost": 12,
 		"requiredBuilding": "Temple",
-		"uniques": ["Costs [400] [Food Reserve]", 
-					"Discover [To the Classical Age]", 
-					"Only available <during the [Archaic Age]>", 
-					"Destroyed when the city is captured", 
-					"Unsellable", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [400] [Food Reserve]",
+			"Discover [To the Classical Age]",
+			"Only available <during the [Archaic Age]>",
+			"Destroyed when the city is captured",
+			"Unsellable",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Heroic Age",
 		"isNationalWonder": true,
 		"cost": 12,
 		"requiredBuilding": "Armory",
-		"uniques": ["Costs [800] [Food Reserve]", 
-					"Costs [500] [Gold Ore]", 
-					"Discover [To the Heroic Age]", 
-					"Only available <in cities with a [Town Center]> <during the [Classical Age]>", 
-					"Destroyed when the city is captured", 
-					"Unsellable", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [800] [Food Reserve]",
+			"Costs [500] [Gold Ore]",
+			"Discover [To the Heroic Age]",
+			"Only available <in cities with a [Town Center]> <during the [Classical Age]>",
+			"Destroyed when the city is captured",
+			"Unsellable",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Mythic Age",
 		"isNationalWonder": true,
 		"cost": 26,
 		"requiredBuilding": "Market",
-		"uniques": ["Costs [1000] [Food Reserve]", 
-					"Costs [1000] [Gold Ore]", 
-					"Discover [To the Mythic Age]", 
-					"Only available <in cities with a [Town Center]> <during the [Heroic Age]>", 
-					"Destroyed when the city is captured", 
-					"Unsellable", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Costs [1000] [Food Reserve]",
+			"Costs [1000] [Gold Ore]",
+			"Discover [To the Mythic Age]",
+			"Only available <in cities with a [Town Center]> <during the [Heroic Age]>",
+			"Destroyed when the city is captured",
+			"Unsellable",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Secret of the Titan",
 		"isNationalWonder": true,
 		"cost": 2,
-		"uniques": ["Costs [800] [Food Reserve]", 
-					"Costs [800] [Gold Ore]", 
-					"Costs [800] [Wood]", 
-					"Costs [50] [Favor]", 
-					"Discover [Secret of the Titan]", 
-					"Only available <in cities with a [Town Center]> <during the [Mythic Age]>", 
-					"Destroyed when the city is captured", 
-					"Unsellable"]
+		"uniques": [
+			"Costs [800] [Food Reserve]",
+			"Costs [800] [Gold Ore]",
+			"Costs [800] [Wood]",
+			"Costs [50] [Favor]",
+			"Discover [Secret of the Titan]",
+			"Only available <in cities with a [Town Center]> <during the [Mythic Age]>",
+			"Destroyed when the city is captured",
+			"Unsellable"
+		]
 	},
 	
 	// God and Goddess
@@ -492,35 +585,43 @@
 		"uniqueTo": "Chinese",
 		"isNationalWonder": true,
 		"cost": 1,
-		"uniques": ["May choose Major God: Fu Xi, Nü Wa, or Shennong", 
-					"Destroyed when the city is captured"]
+		"uniques": [
+			"Comment [May choose Major God: Fu Xi, Nü Wa, or Shennong]",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Major God Fu Xi",
 		"isNationalWonder": true,
 		"cost": 1,
-		"uniques": ["Adopt [Fu Xi]", 
-					"Only available <in cities with a [Chinese Major God]> <before adopting [Fu Xi]> <before adopting [Nu Wa]> <before adopting [Shennong]>", 
-					"Destroyed when the city is captured", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Adopt [Fu Xi]",
+			"Only available <in cities with a [Chinese Major God]> <before adopting [Fu Xi]> <before adopting [Nu Wa]> <before adopting [Shennong]>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Major God Nu Wa", // Nü Wa
 		"isNationalWonder": true,
 		"cost": 1,
-		"uniques": ["Adopt [Nu Wa]", 
-					"Only available <in cities with a [Chinese Major God]> <before adopting [Fu Xi]> <before adopting [Nu Wa]> <before adopting [Shennong]>", 
-					"Destroyed when the city is captured", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Adopt [Nu Wa]",
+			"Only available <in cities with a [Chinese Major God]> <before adopting [Fu Xi]> <before adopting [Nu Wa]> <before adopting [Shennong]>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Major God Shennong",
 		"isNationalWonder": true,
 		"cost": 1,
-		"uniques": ["Adopt [Shennong]", 
-					"Only available <in cities with a [Chinese Major God]> <before adopting [Fu Xi]> <before adopting [Nu Wa]> <before adopting [Shennong]>", 
-					"Destroyed when the city is captured", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Adopt [Shennong]",
+			"Only available <in cities with a [Chinese Major God]> <before adopting [Fu Xi]> <before adopting [Nu Wa]> <before adopting [Shennong]>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	
 	{
@@ -528,36 +629,44 @@
 		"uniqueTo": "Egyptian",
 		"isNationalWonder": true,
 		"cost": 1,
-		"uniques": ["May choose Major God: Isis, Ra, or Set", 
-					"Destroyed when the city is captured"]
+		"uniques": [
+			"Comment [May choose Major God: Isis, Ra, or Set]",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Major God Isis",
 		"isNationalWonder": true,
 		"cost": 1,
-		"uniques": ["Adopt [Isis]", 
-					"Only available <in cities with a [Egyptian Major God]> <before adopting [Isis]> <before adopting [Ra]> <before adopting [Set]>", 
-					"Destroyed when the city is captured", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Adopt [Isis]",
+			"Only available <in cities with a [Egyptian Major God]> <before adopting [Isis]> <before adopting [Ra]> <before adopting [Set]>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Major God Ra",
 		"isNationalWonder": true,
 		"cost": 1,
-		"uniques": ["Adopt [Ra]", 
-					"Only available <in cities with a [Egyptian Major God]> <before adopting [Isis]> <before adopting [Ra]> <before adopting [Set]>", 
-					"Destroyed when the city is captured", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Adopt [Ra]",
+			"Only available <in cities with a [Egyptian Major God]> <before adopting [Isis]> <before adopting [Ra]> <before adopting [Set]>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Major God Set",
 		"isNationalWonder": true,
 		"cost": 1,
-		"uniques": ["Adopt [Set]", 
-					//"Free [Hyena of Set] appears", 
-					"Only available <in cities with a [Egyptian Major God]> <before adopting [Isis]> <before adopting [Ra]> <before adopting [Set]>", 
-					"Destroyed when the city is captured", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Adopt [Set]",
+			//"Free [Hyena of Set] appears", 
+			"Only available <in cities with a [Egyptian Major God]> <before adopting [Isis]> <before adopting [Ra]> <before adopting [Set]>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	
 	{
@@ -565,37 +674,45 @@
 		"uniqueTo": "Greek",
 		"isNationalWonder": true,
 		"cost": 1,
-		"uniques": ["May choose Major God: Hades, Poseidon, or Zeus", 
-					"Destroyed when the city is captured"]
+		"uniques": [
+			"Comment [May choose Major God: Hades, Poseidon, or Zeus]",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Major God Hades",
 		"isNationalWonder": true,
 		"cost": 1,
-		"uniques": ["Adopt [Hades]", 
-					"Only available <in cities with a [Greek Major God]> <before adopting [Hades]> <before adopting [Poseidon]> <before adopting [Zeus]>", 
-					"Destroyed when the city is captured", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Adopt [Hades]",
+			"Only available <in cities with a [Greek Major God]> <before adopting [Hades]> <before adopting [Poseidon]> <before adopting [Zeus]>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Major God Poseidon",
 		"isNationalWonder": true,
 		"cost": 1,
-		"uniques": ["Adopt [Poseidon]", 
-					"Free [Hippocampus] appears <if [Dock] is constructed> <if [Temple] is constructed>", 
-					"Only available <in cities with a [Greek Major God]> <before adopting [Hades]> <before adopting [Poseidon]> <before adopting [Zeus]>", 
-					"Destroyed when the city is captured", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Adopt [Poseidon]",
+			"Free [Hippocampus] appears <if [Dock] is constructed> <if [Temple] is constructed>",
+			"Only available <in cities with a [Greek Major God]> <before adopting [Hades]> <before adopting [Poseidon]> <before adopting [Zeus]>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Major God Zeus",
 		"isNationalWonder": true,
 		"cost": 1,
-		"uniques": ["Adopt [Zeus]", 
-					"Instantly provides [15] [Favor]", 
-					"Only available <in cities with a [Greek Major God]> <before adopting [Hades]> <before adopting [Poseidon]> <before adopting [Zeus]>", 
-					"Destroyed when the city is captured", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Adopt [Zeus]",
+			"Instantly provides [15] [Favor]",
+			"Only available <in cities with a [Greek Major God]> <before adopting [Hades]> <before adopting [Poseidon]> <before adopting [Zeus]>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	
 	{
@@ -603,37 +720,45 @@
 		"uniqueTo": "Norse",
 		"isNationalWonder": true,
 		"cost": 1,
-		"uniques": ["May choose Major God: Loki, Odin, or Thor", 
-					"Destroyed when the city is captured"]
+		"uniques": [
+			"Comment [May choose Major God: Loki, Odin, or Thor]",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Major God Loki",
 		"isNationalWonder": true,
 		"cost": 1,
-		"uniques": ["Adopt [Loki]", 
-					"Only available <in cities with a [Norse Major God]> <before adopting [Loki]> <before adopting [Odin]> <before adopting [Thor]>", 
-					"Destroyed when the city is captured", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Adopt [Loki]",
+			"Only available <in cities with a [Norse Major God]> <before adopting [Loki]> <before adopting [Odin]> <before adopting [Thor]>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Major God Odin",
 		"isNationalWonder": true,
 		"cost": 1,
-		"uniques": ["Adopt [Odin]", 
-					//"[2] free [Raven] units appear <if [Temple] is constructed>", 
-					"Only available <in cities with a [Norse Major God]> <before adopting [Loki]> <before adopting [Odin]> <before adopting [Thor]>", 
-					"Destroyed when the city is captured", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Adopt [Odin]",
+			//"[2] free [Raven] units appear <if [Temple] is constructed>", 
+			"Only available <in cities with a [Norse Major God]> <before adopting [Loki]> <before adopting [Odin]> <before adopting [Thor]>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Major God Thor",
 		"isNationalWonder": true,
 		"cost": 1,
-		"uniques": ["Adopt [Thor]", 
-					"[2] free [Villager] units appear", 
-					"Only available <in cities with a [Norse Major God]> <before adopting [Loki]> <before adopting [Odin]> <before adopting [Thor]>", 
-					"Destroyed when the city is captured", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Adopt [Thor]",
+			"[2] free [Villager] units appear",
+			"Only available <in cities with a [Norse Major God]> <before adopting [Loki]> <before adopting [Odin]> <before adopting [Thor]>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	
 	// Game Mode
@@ -641,34 +766,42 @@
 		"name": "UnlimitedUnit",
 		"isNationalWonder": true,
 		"cost": 1,
-		"uniques": ["Provides [10000] [Unit Slot]", 
-					"Hidden when [mode_Unlimited Unit] Victory is disabled", 
-					"Unsellable", 
-					"Will not be displayed in Civilopedia", 
-					"Destroyed when the city is captured"]
+		"uniques": [
+			"Provides [10000] [Unit Slot]",
+			"Hidden when [mode_Unlimited Unit] Victory is disabled",
+			"Unsellable",
+			"Will not be displayed in Civilopedia",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "UnlimitedUnitAntiWinner",
 		"isNationalWonder": true,
 		"cost": 100,
-		"uniques": ["Hidden when [mode_Unlimited Unit] Victory is disabled", 
-					"Unbuildable", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Hidden when [mode_Unlimited Unit] Victory is disabled",
+			"Unbuildable",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "MultiCitiestAntiWinner",
 		"isNationalWonder": true,
 		"cost": 100,
-		"uniques": ["Hidden when [mode_Multi Cities] Victory is disabled", 
-					"Unbuildable", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Hidden when [mode_Multi Cities] Victory is disabled",
+			"Unbuildable",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "ScoutAntiWinner",
 		"isNationalWonder": true,
 		"cost": 100,
-		"uniques": ["Hidden when [mode_Multi Cities] Victory is disabled", 
-					"Unbuildable", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Hidden when [mode_Multi Cities] Victory is disabled",
+			"Unbuildable",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 ]

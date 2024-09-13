@@ -14,7 +14,7 @@
 			{
 				"name": "Fu Xi",
 				"uniques": [
-					"Double quantity of [Food Reserve] produced", 
+					"Double quantity of [Food Reserve] produced",
 					"Provides [2] [Wood]"
 				],
 				"row": 1,
@@ -24,7 +24,7 @@
 				"name": "Nu Wa", // Nü Wa
 				"uniques": [
 					"Provides [2] [Favor]", 
-					"Provides [1] [Unit Slot]", 
+					"Provides [1] [Unit Slot]",
 					"Instantly provides [300] [Wood] <upon entering the [Heroic Age]>"
 				],
 				"row": 1,
@@ -33,9 +33,9 @@
 			{
 				"name": "Shennong",
 				"uniques": [
-					"[+15]% Strength <for [Siege Melee] units> <when attacking>", 
-					"[+15]% Strength <for [Siege Ranged] units> <when attacking>", 
-					"[+15]% Strength <for [Naval Siege] units> <when attacking>", 
+					"[+15]% Strength <for [Siege Melee] units> <when attacking>",
+					"[+15]% Strength <for [Siege Ranged] units> <when attacking>",
+					"[+15]% Strength <for [Naval Siege] units> <when attacking>",
 					"[Monk] units gain the [Atonement] promotion"
 				],
 				"row": 1,
@@ -53,9 +53,9 @@
 			{
 				"name": "Isis",
 				"uniques": [
-					"Provides [1] [Food Reserve]", 
-					"Provides [1] [Gold Ore]", 
-					"Provides [1] [Wood]", 
+					"Provides [1] [Food Reserve]",
+					"Provides [1] [Gold Ore]",
+					"Provides [1] [Wood]",
 					"Provides [3] [Unit Slot]"
 				],
 				"row": 2,
@@ -64,8 +64,8 @@
 			{
 				"name": "Ra",
 				"uniques": [
-					"[+10]% Strength <for [Chariot Archer] units> <when defending>", 
-					"[+1] Movement <for [Chariot Archer] units>", 
+					"[+10]% Strength <for [Chariot Archer] units> <when defending>",
+					"[+1] Movement <for [Chariot Archer] units>",
 					"Gain a free [Monument] [in capital]"
 				],
 				"row": 2,
@@ -97,7 +97,7 @@
 			{
 				"name": "Hades",
 				"uniques": [
-					"[+25]% Strength for cities", 
+					"[+25]% Strength for cities",
 					"[+10]% Strength <for [Archery] units> <when attacking>"
 				],
 				"row": 3,
@@ -106,10 +106,10 @@
 			{
 				"name": "Poseidon",
 				"uniques": [
-					"Free [Hippocampus] appears <upon entering the [Classical Age]> <if [Dock] is constructed> <if [Temple] is constructed>", 
-					"Free [Hippocampus] appears <upon entering the [Heroic Age]> <if [Dock] is constructed> <if [Temple] is constructed>", 
-					"Free [Hippocampus] appears <upon entering the [Mythic Age]> <if [Dock] is constructed> <if [Temple] is constructed>", 
-					"Free [Hippocampus] appears <upon entering the [Titan Age]> <if [Dock] is constructed> <if [Temple] is constructed>", 
+					"Free [Hippocampus] appears <upon entering the [Classical Age]> <if [Dock] is constructed> <if [Temple] is constructed>",
+					"Free [Hippocampus] appears <upon entering the [Heroic Age]> <if [Dock] is constructed> <if [Temple] is constructed>",
+					"Free [Hippocampus] appears <upon entering the [Mythic Age]> <if [Dock] is constructed> <if [Temple] is constructed>",
+					"Free [Hippocampus] appears <upon entering the [Titan Age]> <if [Dock] is constructed> <if [Temple] is constructed>",
 					"[+10]% Strength <for [Cavalry] units>"
 				],
 				"row": 3,
@@ -118,7 +118,7 @@
 			{
 				"name": "Zeus",
 				"uniques": [
-					"[+100]% Strength <for [Infantry] units> <vs cities> <when attacking>", 
+					"[+100]% Strength <for [Infantry] units> <vs cities> <when attacking>"
 				],
 				"row": 3,
 				"column": 15
@@ -135,9 +135,9 @@
 			{
 				"name": "Loki",
 				"uniques": [
-					"[+15]% Production when constructing [Infantry] units [in all cities]", 
-					"[+15]% Production when constructing [Archery] units [in all cities]", 
-					"[+15]% Production when constructing [Cavalry] units [in all cities]", 
+					"[+15]% Production when constructing [Infantry] units [in all cities]",
+					"[+15]% Production when constructing [Archery] units [in all cities]",
+					"[+15]% Production when constructing [Cavalry] units [in all cities]",
 					"[+1] Movement <for [Hersir] units>"
 				],
 				"row": 4,
@@ -146,8 +146,8 @@
 			{
 				"name": "Odin",
 				"uniques": [
-					"[Infantry] units gain the [Lone Wanderer] promotion", 
-					"[Archery] units gain the [Lone Wanderer] promotion", 
+					"[Infantry] units gain the [Lone Wanderer] promotion",
+					"[Archery] units gain the [Lone Wanderer] promotion",
 					"[Cavalry] units gain the [Lone Wanderer] promotion"
 				],
 				"row": 4,
@@ -156,7 +156,7 @@
 			{
 				"name": "Thor",
 				"uniques": [
-					"[+15]% Strength <for [Infanty] units> <vs [Archery] units> <when defending>", 
+					"[+15]% Strength <for [Infantry] units> <vs [Archery] units> <when defending>", 
 					"[+15]% Strength <for [Archery] units> <vs [Cavalry] units> <when defending>", 
 					"[+15]% Strength <for [Cavalry] units> <vs [Infantry] units> <when defending>"
 				],

@@ -2,7 +2,7 @@
 
 	{
 		"name": "Heal Instantly",
-		"uniques": ["Heal this unit by [75] HP", 
+		"uniques": ["[This Unit] heals [75] HP", 
 					"Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Recon","Infantry","Archery","Cavalry","Siege Melee","Siege Ranged","Naval Melee","Naval Ranged","Naval Siege"]
 	},

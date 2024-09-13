@@ -105,8 +105,7 @@
 		"name": "City ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable", 
-					"Unbuildable", 
-					"Will be replaced by automated workers"],
+					"Unbuildable"],
 		"civilopediaText": [
 			{"text":"A bleak reminder of the destruction wreaked by War"}
 		]
@@ -117,6 +116,7 @@
 		"uniques": ["Unpillagable", 
 					"Irremovable", 
 					"Unbuildable", 
+					"Excluded from map editor", 
 					"Adjacent enemy units ending their turn take [10] damage"],
 		"civilopediaText": [
 			{"text":"Marks the center of a city"},
@@ -127,7 +127,8 @@
 		"name": "Barbarian encampment",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable", 
-					"Unbuildable"],
+					"Unbuildable", 
+					"Excluded from map editor"],
         "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
 	}
 	

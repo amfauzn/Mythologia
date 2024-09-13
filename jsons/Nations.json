@@ -94,7 +94,6 @@
 		"leaderName": "God and Goddess",
 		"adjective": ["Norse"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination",
 
         "declaringWar": "If I am to be honest, I tire of those pointless charades. Why don't we settle our disputes on the field of battle, like true men? Perhaps the skalds will sing of your valor... or mine!",
 		"attacked": "Ahahah! You seem to show some skills of a true Viking! Too bad that I'll probably kill you!",

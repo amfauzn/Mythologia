@@ -477,7 +477,7 @@
 						"Consumes [2] [Unit Slot]", 
 						"Only available <in cities with a [Dock]> <starting from the [Mythic Age]>", 
 						"[+1] Sight", 
-						"May withdraw before melee ([33]%)",
+						"Withdraws before melee combat <with [33]% chance>",
 						"Consumes [2] [Unit Slot]",
 						"Never appears as a Barbarian unit", 
 						"Naval"],
