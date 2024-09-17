@@ -24,8 +24,10 @@
 		"outerColor": [  9,112, 84],
 		"innerColor": [255,255,255],
 		"uniqueText": " ",
-		"uniques": ["Starts with [Chinese Mythology] adopted", 
-					"Gain a free [Chinese Major God] [in capital]"],
+		"uniques": [
+			"Starts with [Chinese Mythology] adopted",
+			"Gain a free [Chinese Major God] [in capital]"
+		],
 		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
 			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
 			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
@@ -51,8 +53,10 @@
 		"outerColor": [255,252, 3],
 		"innerColor": [83, 0, 208],
 		"uniqueText": " ",
-		"uniques": ["Starts with [Egyptian Mythology] adopted", 
-					"Gain a free [Egyptian Major God] [in capital]"],
+		"uniques": [
+			"Starts with [Egyptian Mythology] adopted", 
+			"Gain a free [Egyptian Major God] [in capital]"
+		],
 		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
 			   "Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
 			   "Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant",
@@ -79,8 +83,10 @@
 		"outerColor": [188,234,234],
 		"innerColor": [ 61,127,224],
 		"uniqueText": " ",
-		"uniques": ["Starts with [Greek Mythology] adopted", 
-					"Gain a free [Greek Major God] [in capital]"],
+		"uniques": [
+			"Starts with [Greek Mythology] adopted", 
+			"Gain a free [Greek Major God] [in capital]"
+		],
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
 			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
 			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Sicyon",
@@ -107,8 +113,10 @@
         "outerColor": [51,25,0],
         "innerColor": [255,255,102],
 		"uniqueText": " ",
-		"uniques": ["Starts with [Norse Mythology] adopted", 
-					"Gain a free [Norse Major God] [in capital]"],
+		"uniques": [
+			"Starts with [Norse Mythology] adopted", 
+			"Gain a free [Norse Major God] [in capital]"
+		],
 		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Oslo","Jelling","Truso",
 			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
 			"Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers",
@@ -124,7 +132,11 @@
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
         "innerColor": [185,12,12],
-		"uniques": ["Can only heal by pillaging"]
+		"uniques": [
+			"Can only heal by pillaging",
+			"[-1] Range <for [Archery] units>",
+			"[-10]% Strength <in [Enemy Land] tiles>"
+		]
 	}
 
 ]
